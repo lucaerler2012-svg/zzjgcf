@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "obsicrystal",
+  "version": "${version}",
+  "name": "Obsidian to Crystal",
+  "description": "Nach dem Setzen von Obsidian wechselt die Mod auf einen End-Kristall in der Hotbar, falls vorhanden.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["de.obsicrystal.ObsiCrystalClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
